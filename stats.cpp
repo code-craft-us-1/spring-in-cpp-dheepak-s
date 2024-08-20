@@ -22,4 +22,5 @@ Stats Statistics::ComputeStatistics(const std::vector<double>& data ) {
         }
         computedStats.average = sum / data.size();
     }
+    return computedStats;
 }
