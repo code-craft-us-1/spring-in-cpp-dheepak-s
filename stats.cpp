@@ -4,9 +4,9 @@ Stats Statistics::ComputeStatistics(const std::vector<double>& data ) {
     //Implement statistics here
     Stats computedStats;
     if(data.size() == 0) {
-        computedStats.average = NAN;
-        computedStats.min = NAN;
-        computedStats.max = NAN;
+        computedStats.average = 0;
+        computedStats.min = 0;
+        computedStats.max = 0;
     } else {
         double sum = 0;
         computedStats.min = data[0];
